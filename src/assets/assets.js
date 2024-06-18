@@ -14,6 +14,9 @@ import androiddeveloper from "./css.png"
 import developer_bg_video from "./developer-bg-video.webm"
 import informatica from "./informatica.jpg"
 import gssoc from "./gssoc.jpg"
+import guru from "./titlelogo.png"
+import gdsc from "./gdsc.png"
+import Dss from "./Dss.png"
 
 export const assets = {
     profile,
@@ -31,6 +34,40 @@ export const assets = {
     androiddeveloper,
     developer_bg_video,
     informatica,
-    gssoc
+    gssoc,
+    guru,
+    gdsc,
+    Dss
 
 }
+
+export const tat_list = [
+    {
+        id:1,
+        imgUrl: gdsc,
+    },
+    {
+        id:2,
+        imgUrl: gdsc,
+    },
+    {
+        id:3,
+        imgUrl: gdsc,
+    },
+    {
+        id:4,
+        imgUrl: gdsc,
+    },
+    {
+        id:5,
+        imgUrl: gdsc,
+    },
+    {
+        id:6,
+        imgUrl: gdsc,
+    },
+    {
+        id:7,
+        imgUrl: gdsc,
+    }
+]

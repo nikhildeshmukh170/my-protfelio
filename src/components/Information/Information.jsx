@@ -1,7 +1,7 @@
 import React from "react";
 import "./Information.css";
 import Navbar from "../Navbar/Navbar";
-import { assets } from "../../assets/assets";
+import { assets, tat_list } from "../../assets/assets";
 
 const Information = () => {
   return (
@@ -95,8 +95,8 @@ const Information = () => {
             <div className="achivements_img_content">
               <div className="achivement_indual">
               <div className="achivement_img">
-                  <img src={assets.androiddeveloper} alt="" />
-                  <p className="heading">Top 20 in Infromatica Data Engineer Hackathon</p>
+                  <img src={assets.guru} alt="" />
+                  <p className="heading">First big project completed from start to finish!</p>
                 </div>
                 <div className="achivement_content">
                   <p className="para">Won the best Paper presentation award along with my teammates at departmental level in.. college for the RBL subject that delas with Fake Multimedia Detection.</p>
@@ -107,8 +107,8 @@ const Information = () => {
             <div className="achivements_img_content">
               <div className="achivement_indual">
               <div className="achivement_img">
-                  <img src={assets.androiddeveloper} alt="" />
-                  <p className="heading">Top 20 in Infromatica Data Engineer Hackathon</p>
+                  <img src={assets.gdsc} alt="" />
+                  <p className="heading">Google Developer Student Club</p>
                 </div>
                 <div className="achivement_content">
                   <p className="para">Won the best Paper presentation award along with my teammates at departmental level in.. college for the RBL subject that delas with Fake Multimedia Detection.</p>
@@ -119,8 +119,8 @@ const Information = () => {
             <div className="achivements_img_content">
               <div className="achivement_indual">
               <div className="achivement_img">
-                  <img src={assets.androiddeveloper} alt="" />
-                  <p className="heading">Top 20 in Infromatica Data Engineer Hackathon</p>
+                  <img src={assets.Dss} alt="" />
+                  <p className="heading">Data Science Society</p>
                 </div>
                 <div className="achivement_content">
                   <p className="para">Won the best Paper presentation award along with my teammates at departmental level in.. college for the RBL subject that delas with Fake Multimedia Detection.</p>
@@ -129,6 +129,19 @@ const Information = () => {
             </div>
 
           </div>
+        </div>
+
+        <div  className="toolsandtechnologies">
+          <div className="tat_heading">
+            <p>Tools And Technologies</p>
+          </div>
+            <div  className="tat_content">
+          {tat_list.map((item,index)=>(
+              <div key={index} className="tat_imgs">
+                <img src={item.imgUrl} alt="" />
+              </div>
+        ))}
+        </div>
         </div>
       </div>
     </div>
