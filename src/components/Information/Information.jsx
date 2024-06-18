@@ -62,6 +62,74 @@ const Information = () => {
             </div>
           </div>
         </div>
+        <div className="achivements">
+          <div className="achivements_heading">
+            <p>Achivements :)</p>
+          </div>
+          
+          <div className="achivements_details">
+            <div className="achivements_img_content">
+              <div className="achivement_indual">
+                <div className="achivement_img">
+                  <img src={assets.androiddeveloper} alt="" />
+                  <p className="heading">Top 20 in Infromatica Data Engineer Hackathon</p>
+                </div>
+                <div className="achivement_content">
+                  <p className="para">Won the best Paper presentation award along with my teammates at departmental level in.. college for the RBL subject that delas with Fake Multimedia Detection.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="achivements_img_content">
+              <div className="achivement_indual">
+              <div className="achivement_img">
+                  <img src={assets.androiddeveloper} alt="" />
+                  <p className="heading">Top 20 in Infromatica Data Engineer Hackathon</p>
+                </div>
+                <div className="achivement_content">
+                  <p className="para">Won the best Paper presentation award along with my teammates at departmental level in.. college for the RBL subject that delas with Fake Multimedia Detection.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="achivements_img_content">
+              <div className="achivement_indual">
+              <div className="achivement_img">
+                  <img src={assets.androiddeveloper} alt="" />
+                  <p className="heading">Top 20 in Infromatica Data Engineer Hackathon</p>
+                </div>
+                <div className="achivement_content">
+                  <p className="para">Won the best Paper presentation award along with my teammates at departmental level in.. college for the RBL subject that delas with Fake Multimedia Detection.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="achivements_img_content">
+              <div className="achivement_indual">
+              <div className="achivement_img">
+                  <img src={assets.androiddeveloper} alt="" />
+                  <p className="heading">Top 20 in Infromatica Data Engineer Hackathon</p>
+                </div>
+                <div className="achivement_content">
+                  <p className="para">Won the best Paper presentation award along with my teammates at departmental level in.. college for the RBL subject that delas with Fake Multimedia Detection.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="achivements_img_content">
+              <div className="achivement_indual">
+              <div className="achivement_img">
+                  <img src={assets.androiddeveloper} alt="" />
+                  <p className="heading">Top 20 in Infromatica Data Engineer Hackathon</p>
+                </div>
+                <div className="achivement_content">
+                  <p className="para">Won the best Paper presentation award along with my teammates at departmental level in.. college for the RBL subject that delas with Fake Multimedia Detection.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
     </div>
   );

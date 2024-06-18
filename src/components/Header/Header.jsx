@@ -33,7 +33,9 @@ const Header = () => {
             <img src={assets.mail} alt="" />
             <div className="mail_content">
               <h5>EMAIL</h5>
-              <p>nikhildeshmukh170@gmail.com</p>
+              <a href="mailto:nikhildeshmukh170@gmail.com">
+                <p>nikhildeshmukh170@gmail.com</p>
+              </a>
             </div>
           </div>
           <div className="education">
@@ -47,7 +49,9 @@ const Header = () => {
             <img src={assets.contact} alt="" />
             <div className="contact_content">
               <h5>Contact</h5>
-              <p>+919022671564</p>
+              <a href="tel:+919022671564">
+                <p>+919022671564</p>
+              </a>
             </div>
           </div>
         </div>
