@@ -11,6 +11,7 @@ import datascience from "./data-science.png"
 import webdeveloper from "./development.png"
 import webdesign from "./ui-ux.png"
 import androiddeveloper from "./css.png"
+import developer_bg_video from "./developer-bg-video.webm"
 
 
 export const assets = {
@@ -26,6 +27,7 @@ export const assets = {
     datascience,
     webdeveloper,
     webdesign,
-    androiddeveloper
+    androiddeveloper,
+    developer_bg_video
 
 }

@@ -12,7 +12,7 @@ const Header = () => {
             <img src={assets.profile} alt="" />
           </div>
           <div className="groupimg">
-            <img src={assets.grouppic} alt="" />
+            <video src={assets.developer_bg_video} alt="" className="profile-video" autoPlay muted loop/>
           </div>
         </div>
         <div className="inform">

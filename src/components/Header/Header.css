@@ -61,12 +61,13 @@
     box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
 }
 
-.header .profile_section .picture .groupimg img{
+.header .profile_section .picture .groupimg video{
     width: 315px;
     height: 140px;
     object-fit: cover;
     border-radius: 18px 18px 0px 0px;
     margin-top: -5px;
+    
 }
 
 .header .profile_section hr{

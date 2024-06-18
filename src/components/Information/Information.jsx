@@ -17,11 +17,11 @@ const Information = () => {
       </div>
       <div className="body_information">
         <div className="about_me">
-          <p>My name is Nikhil Deshmukh, and currently, I am a third-year B.Tech CSE student specializing in Data Science at Bennett University, Greater Noida. Coming from a middle-class family, I have always been driven to excel academically and professionally. I have completed 10-12 projects throughout my studies, showcasing my proficiency in Java, Python, C++, DSA, and more. Starting with little knowledge of computer science during my first year, my quick learning abilities have allowed me to achieve a CGPA of 9. Additionally, I hold leadership positions in two prominent college clubs, GDSC and DSS. One of my strongest qualities is my commitment to meeting deadlines, ensuring that any task, big or small, is completed on time and to perfection. In my free time, I enjoy listening to music and drawing creatively.</p>
+          <p>Hey there,<br />I'm Nikhil, a third-year B.Tech CSE student specializing in Data Science at Bennett University in Greater Noida. Coming from a middle-class family, I've always been highly motivated to excel academically and professionally. Throughout my studies, I've successfully completed 10-12 projects, demonstrating my proficiency in Java, Python, C++, DSA, and more. Despite having limited prior knowledge of computer science, my rapid learning abilities have enabled me to achieve an impressive CGPA of 9. In addition, I hold leadership positions in two prominent college clubs, GDSC and DSS. My commitment to meeting deadlines and ensuring the completion of tasks with precision is among my strongest qualities. In my leisure time, I indulge in listening to music and expressing my creativity through drawing.</p>
         </div>
         <div className="what_iam_doing">
           <div className="what_iam_doing_heading">
-            <p>What I am doing</p>
+            <p>What I am doing...</p>
           </div>
           <div className="what_iam_doing_content">
             <div className="datascientist">
