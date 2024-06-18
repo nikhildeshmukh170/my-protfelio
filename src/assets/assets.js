@@ -12,7 +12,8 @@ import webdeveloper from "./development.png"
 import webdesign from "./ui-ux.png"
 import androiddeveloper from "./css.png"
 import developer_bg_video from "./developer-bg-video.webm"
-
+import informatica from "./informatica.jpg"
+import gssoc from "./gssoc.jpg"
 
 export const assets = {
     profile,
@@ -28,6 +29,8 @@ export const assets = {
     webdeveloper,
     webdesign,
     androiddeveloper,
-    developer_bg_video
+    developer_bg_video,
+    informatica,
+    gssoc
 
 }
