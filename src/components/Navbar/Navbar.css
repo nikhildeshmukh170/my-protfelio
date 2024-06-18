@@ -1,0 +1,35 @@
+.Navbar{
+    width: 555px;
+    height: 70px;
+    border: 4px solid rgba(33, 124, 230, 1);
+    border-top: 0px;
+    border-right: 0px;
+    border-radius: 0px 20px 0px 20px;
+    margin-top: -15px;
+}
+.Navbar ul{
+    margin-top: 15px;
+    margin-left: -20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar ul li{
+    margin-top: 15px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.Navbar ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.Navbar ul li a:hover{
+    color: rgb(255, 72, 0);
+    text-decoration: underline;
+}

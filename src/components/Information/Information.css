@@ -1,0 +1,22 @@
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.information .infor_heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.information .infor_heading hr{
+    width: 70px;
+    height: 7px;
+    border-radius: 50px;
+    background: rgb(255, 60, 0);
+    border-color: rgb(255, 60, 0);
+    margin-left: 5px;
+    margin-top: -40px;
+}

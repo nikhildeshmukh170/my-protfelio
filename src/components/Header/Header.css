@@ -1,0 +1,161 @@
+.header{
+    /* min-width: 280px;
+    min-height: 80vh; */
+    width: 1280px;
+    height: 90vh;
+    /* padding: 100px; */
+    /* border: 2px solid wheat; */
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    /* overflow-x: hidden; */
+}
+
+.header .profile_section{
+    width: 350px;
+    height: 90vh;
+    border: 4px solid rgba(33, 124, 230, 1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* margin-top: 30px; */
+    gap: 30px;
+}
+
+.header .profile_section .profile_pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    object-fit: cover;
+    zoom: 1;
+    margin-bottom: 350px;
+    z-index: 2;
+}
+
+.header .profile_section .picture{
+    width: 315px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -20px;
+}
+
+.header .profile_section .picture .profileimg img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 150px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 80px;
+    box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+}
+
+.header .profile_section .picture .groupimg img{
+    width: 315px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 18px 18px 0px 0px;
+    margin-top: -5px;
+}
+
+.header .profile_section hr{
+    width: 200px;
+    opacity: 50%;
+    margin-top: -25px;
+}
+.header .profile_section .inform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .profile_section .inform .para{
+    margin-top: -20px;
+    width: 260px;
+    font-size: 12px;
+    text-align: center;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.header .profile_section .connect_infrom{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: -30px;
+}
+
+.mail, .education, .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.mail img, .education img, .contact img{
+    width: 30px;
+    height: 30px;
+    opacity: 70%;
+}
+
+.mail:hover img, .education:hover img, .contact:hover img{
+    width: 30px;
+    height: 30px;
+    opacity: 100%;
+}
+
+.mail .mail_content, .education .education_content, .contact .contact_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail .mail_content h5, .education .education_content h5, .contact .contact_content h5{
+    color: rgba(255, 255, 255, 0.53);
+}
+
+.mail:hover .mail_content h5, .education:hover .education_content h5, .contact:hover .contact_content h5{
+    color: rgb(255, 255, 255);
+}
+
+.mail .mail_content p, .education .education_content p, .contact .contact_content p{
+    margin-top: -22px;
+}
+
+.header .profile_section .social_media{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+}
+.header .profile_section .social_media img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.header .profile_section .social_media img:hover{
+    box-shadow:  0 0 5px 2px rgb(240, 168, 1);
+}
+
+
+.header .inform_section{
+    width: 12800px;
+    height: 90vh;
+    border: 4px solid rgba(33, 124, 230, 1);
+    border-radius: 20px;
+    /* max-height: 90vh;
+    overflow-y: scroll; */
+}
