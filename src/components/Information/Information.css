@@ -1,22 +1,129 @@
-.information{
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.information .header_information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.information .header_information .infor_heading {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: -20px;
+}
+
+.information .header_information .infor_heading hr {
+  width: 70px;
+  height: 7px;
+  border-radius: 50px;
+  background: rgb(255, 60, 0);
+  border-color: rgb(255, 60, 0);
+  margin-left: 5px;
+  margin-top: -40px;
+}
+
+.information .body_information {
+  padding: 0px 30px 0px 30px;
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+.body_information::-webkit-scrollbar {
+    width: 4px; /* Width of the scrollbar */
+  }
+  
+  .body_information::-webkit-scrollbar-thumb {
+    background: #d9830a; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Rounded corners of the scrollbar thumb */
+  }
+  
+  .body_information::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker color on hover */
+  }
+  
+  .body_information::-webkit-scrollbar-track {
+    background: #f1f1f100; /* Background color of the scrollbar track */
+  }
+
+
+.information .body_information .what_iam_doing .what_iam_doing_heading {
+  margin-top: 30px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.information .body_information .what_iam_doing_content {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  column-gap: 25px;
+  row-gap: 20px;
+}
+
+.datascientist,
+.webdeveloper,
+.webdesign,
+.androiddeveloper {
+  background: linear-gradient(#191c25, #191c25) padding-box,
+    linear-gradient(to right, rgba(255, 255, 255, 0.34), #191c25) border-box;
+  border-radius: 20px;
+  border-top: 4px solid transparent;
+  border-left: 2px solid transparent;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.datascientist:hover,
+.webdeveloper:hover,
+.webdesign:hover,
+.androiddeveloper:hover{
+
+    border-right: 2px solid transparent;
+    border-left: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+.datascientist_img img,
+.webdeveloper_img img,
+.webdesign_img img,
+.androiddeveloper_img img{
+    width: 50px;
+    height: auto;
+}
+
+.datascientist_content,
+.webdeveloper_content,
+.webdesign_content,
+.androiddeveloper_content{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
-.information .infor_heading {
-    font-size: 40px;
+.datascientist_content .heading,
+.webdeveloper_content .heading,
+.webdesign_content .heading,
+.androiddeveloper_content .heading{
     font-weight: bold;
-    margin-left: 40px;
-    margin-top: -20px;
+    font-size: 20px;
+
 }
 
-.information .infor_heading hr{
-    width: 70px;
-    height: 7px;
-    border-radius: 50px;
-    background: rgb(255, 60, 0);
-    border-color: rgb(255, 60, 0);
-    margin-left: 5px;
-    margin-top: -40px;
+.datascientist_content .para,
+.webdeveloper_content .para,
+.webdesign_content .para,
+.androiddeveloper_content .para{
+    font-size: 13px;
+    margin-top: -20px;
+    color: rgba(255, 255, 255, 0.545);
+    max-height: 60px;
+    overflow-y: auto;
 }

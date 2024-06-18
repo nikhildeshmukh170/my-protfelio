@@ -7,6 +7,10 @@ import linkedin from "./linkedin.png"
 import github from "./github.png"
 import twitter from "./twitter.png"
 import instagram from "./instagram.png"
+import datascience from "./data-science.png"
+import webdeveloper from "./development.png"
+import webdesign from "./ui-ux.png"
+import androiddeveloper from "./css.png"
 
 
 export const assets = {
@@ -18,6 +22,10 @@ export const assets = {
     linkedin,
     github,
     twitter,
-    instagram
+    instagram,
+    datascience,
+    webdeveloper,
+    webdesign,
+    androiddeveloper
 
 }
