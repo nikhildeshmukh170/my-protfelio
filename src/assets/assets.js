@@ -17,6 +17,20 @@ import gssoc from "./gssoc.jpg"
 import guru from "./titlelogo.png"
 import gdsc from "./gdsc.png"
 import Dss from "./Dss.png"
+import GoogleCloud from "./GoogleCloud.png"
+import Android_Studio from "./android_studio.png"
+import Canva from "./Canva.jpeg"
+import Cisco from "./Cisco.jpeg"
+import figma from "./figma.png"
+import flutter from "./Flutter.jpeg"
+import kaggle from "./Kaggle.png"
+import mongoDb from "./mongoDB.png"
+import NodeJs from "./NodeJs.png"
+import ReactJs from "./ReactJs.png"
+import visualParadigm from "./visual_Paradigm.jpeg"
+import vscode from "./vscode.png"
+import WireShark from "./WireShark.png"
+
 
 export const assets = {
     profile,
@@ -37,37 +51,74 @@ export const assets = {
     gssoc,
     guru,
     gdsc,
-    Dss
+    Dss,
+    GoogleCloud,
+    Android_Studio,
+    Canva,
+    Cisco,
+    figma,
+    flutter,
+    kaggle,
+    mongoDb,
+    NodeJs,
+    ReactJs,
+    visualParadigm,
+    vscode,
+    WireShark
 
 }
 
 export const tat_list = [
     {
         id:1,
-        imgUrl: gdsc,
+        imgUrl: GoogleCloud,
     },
     {
         id:2,
-        imgUrl: gdsc,
+        imgUrl: kaggle,
     },
     {
         id:3,
-        imgUrl: gdsc,
+        imgUrl: figma,
     },
     {
         id:4,
-        imgUrl: gdsc,
+        imgUrl: ReactJs,
     },
     {
         id:5,
-        imgUrl: gdsc,
+        imgUrl: NodeJs,
     },
     {
         id:6,
-        imgUrl: gdsc,
+        imgUrl: mongoDb,
     },
     {
         id:7,
-        imgUrl: gdsc,
-    }
+        imgUrl: vscode,
+    },
+    {
+        id:8,
+        imgUrl: visualParadigm,
+    },
+    {
+        id:9,
+        imgUrl: Canva,
+    },
+    {
+        id:10,
+        imgUrl: Cisco,
+    },
+    {
+        id:11,
+        imgUrl: flutter,
+    },
+    {
+        id:12,
+        imgUrl: WireShark,
+    },
+    {
+        id:13,
+        imgUrl: Android_Studio,
+    },
 ]

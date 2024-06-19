@@ -271,5 +271,22 @@
 .toolsandtechnologies .tat_content .tat_imgs img{
     width: 200px;
     height: 100px;
-    object-fit: cover;
+    object-fit: contain;
+    filter: grayscale(100%);
+}
+
+.toolsandtechnologies .tat_content .tat_imgs:hover img{
+  filter: grayscale(0%);
+
+}
+
+
+.toolsandtechnologies .tat_heading{
+  font-size: 32px;
+  font-weight: bold;
+  
+}
+
+span{
+  color: #d9830a;
 }

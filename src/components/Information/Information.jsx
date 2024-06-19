@@ -21,7 +21,7 @@ const Information = () => {
         </div>
         <div className="what_iam_doing">
           <div className="what_iam_doing_heading">
-            <p>What I am doing...</p>
+            <p>What I am <span>doing...</span></p>
           </div>
           <div className="what_iam_doing_content">
             <div className="datascientist">
