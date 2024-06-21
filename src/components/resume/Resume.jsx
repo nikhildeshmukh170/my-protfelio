@@ -59,7 +59,9 @@ const Resume = () => {
         </div>
 
         <div className="my_skills">
-            <h1>My Skills</h1>
+            <div className="my_skills_heading">
+                <p>My Skills</p>
+            </div>
         </div>
       </div>
     </div>
