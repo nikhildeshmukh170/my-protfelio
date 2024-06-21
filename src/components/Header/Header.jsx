@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import { assets } from "../../assets/assets";
 import Information from "../Information/Information";
+import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   return (
@@ -88,7 +89,10 @@ const Header = () => {
         </div>
       </div>
       <div className="inform_section">
-        <Information />
+        {/* <Information /> */}
+        {/* <div className="navbar">
+          <Navbar />
+        </div> */}
       </div>
     </div>
   );

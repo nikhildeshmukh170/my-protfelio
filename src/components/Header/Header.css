@@ -164,7 +164,7 @@
 }
 
 
-.header .inform_section{
+/* .header .inform_section{
     min-width: 75%;
     width: 75%;
     height: auto;
@@ -172,10 +172,17 @@
     border-radius: 20px;
     margin-left: 400px;
     /* top: 0px; */
-    margin-top: -60px;
+    /* margin-top: -60px; */
     /* margin-bottom: 120px; */
     /* max-height: 90vh;
     overflow-y: scroll; */
+/* } */
+
+.inform_section .navbar{
+    margin-left: 70%;
+    margin-top: -13%;
+    cursor: pointer;
+    z-index: 34;
 }
 
 

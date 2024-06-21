@@ -30,6 +30,7 @@ import ReactJs from "./ReactJs.png"
 import visualParadigm from "./visual_Paradigm.jpeg"
 import vscode from "./vscode.png"
 import WireShark from "./WireShark.png"
+import reading from "./reading.png"
 
 
 export const assets = {
@@ -64,7 +65,8 @@ export const assets = {
     ReactJs,
     visualParadigm,
     vscode,
-    WireShark
+    WireShark,
+    reading
 
 }
 
@@ -120,5 +122,49 @@ export const tat_list = [
     {
         id:13,
         imgUrl: Android_Studio,
+    },
+]
+
+
+export const ed_list = [
+    {
+        id:1,
+        ed_name: "Bennett Unversity",
+        ed_year:"2022-26",
+        ed_qualification: "Bachelore of Technology in Computer With Specialization in Data Science."
+    },
+    {
+        id:2,
+        ed_name: "Bennett Unversity",
+        ed_year:"2022-26",
+        ed_qualification: "Bachelore of Technology in Computer With Specialization in Data Science."
+    },
+    {
+        id:3,
+        ed_name: "Bennett Unversity",
+        ed_year:"2022-26",
+        ed_qualification: "Bachelore of Technology in Computer With Specialization in Data Science."
+    },
+]
+
+
+export const experience_list = [
+    {
+        id:1,
+        ex_name: "Bennett Unversity",
+        ex_year:"2022-26",
+        ex_qualification: "Bachelore of Technology in Computer With Specialization in Data Science."
+    },
+    {
+        id:2,
+        ex_name: "Bennett Unversity",
+        ex_year:"2022-26",
+        ex_qualification: "Bachelore of Technology in Computer With Specialization in Data Science."
+    },
+    {
+        id:3,
+        ex_name: "Bennett Unversity",
+        ex_year:"2022-26",
+        ex_qualification: "Bachelore of Technology in Computer With Specialization in Data Science."
     },
 ]

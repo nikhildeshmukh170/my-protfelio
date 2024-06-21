@@ -1,0 +1,123 @@
+.body_information .eduction, .body_information .experience{
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+
+    /* padding: 90px; */
+    /* margin-left: 20px; */
+}
+
+.eduction .ed_heading, .experience .ex_heading{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+}
+
+.ed_heading .ed_heading_img , .ex_heading .ex_heading_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #1d1d1d;
+    border-radius: 15px;
+    z-index: 3;
+    background: linear-gradient(#191c25, #191c25) padding-box,
+    linear-gradient(to right, rgba(255, 255, 255, 0.34), #191c25) border-box;
+  border-radius: 20px;
+  border-top: 1px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 4px solid transparent;
+}
+
+.ed_heading_para , .ex_heading_para{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.ed_heading .ed_heading_img img, .ex_heading .ex_heading_img img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+/* .eduction hr{
+    position: absolute;
+    width: 1px;
+    height: 175px;
+    background: rgb(255, 220, 167);
+    border-color: rgb(255, 220, 167);
+    border-radius: 50px;
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+    margin-top: -20px;
+    margin-left: 2.6%;
+} */
+
+.ed_heading p , .ex_heading p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ed_list, .ex_list{
+    margin-left: 70px;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ed_list .ed_item, .ex_list .ex_item{
+    display: flex;
+    flex-direction: column;
+    /* gap: px; */
+    justify-content: start;
+    align-items: Start;
+    /* margin-top: -30px; */
+}
+
+.ed_item .ed_item_title , .ex_item .ex_item_title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ed_item span , .ex_item span{
+    margin-top: -20px;
+}
+
+.ed_item .ed_item_para, .ex_item .ex_item_para{
+    margin-top: 5px;
+    color: #cecece;
+}
+
+.ed_item::before, .ex_item::before{
+    content: " ";
+    position: absolute;
+    width: 1px;
+    height: 140px;
+    /* top: 325px; */
+    left: 508px;
+    background: hsl(0, 0%, 22%);
+}
+
+.ed_item:last-child::before, .ex_item:last-child::before{
+    height: 30px;
+}
+
+
+.ed_item::after, .ex_item::after{
+    content: " ";
+    width: 10px;
+    height: 10px;
+    background: linear-gradient( to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%) );;
+    box-shadow: 0 0 0 4px hsl(0, 0%, 22%);
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -51px;
+    z-index: 34;
+}
