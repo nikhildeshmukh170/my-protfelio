@@ -62,6 +62,62 @@ const Resume = () => {
             <div className="my_skills_heading">
                 <p>My Skills</p>
             </div>
+            <div className="my_skills_body">
+                <div className="my_skill_item_1">
+                    <div className="myskill_item_title">
+                        <p>Python</p>
+                        <p>80%</p>
+                    </div>
+                    <div className="myskilitem_progressbar">
+                        <div className="item_progress"></div>
+                    </div>
+                </div>
+                <div className="my_skill_item_2">
+                    <div className="myskill_item_title">
+                        <p>Java</p>
+                        <p>80%</p>
+                    </div>
+                    <div className="myskilitem_progressbar">
+                        <div className="item_progress"></div>
+                    </div>
+                </div>
+                <div className="my_skill_item_3">
+                    <div className="myskill_item_title">
+                        <p>React js</p>
+                        <p>75%</p>
+                    </div>
+                    <div className="myskilitem_progressbar">
+                        <div className="item_progress"></div>
+                    </div>
+                </div>
+                <div className="my_skill_item_4">
+                    <div className="myskill_item_title">
+                        <p>HTML CSS</p>
+                        <p>90%</p>
+                    </div>
+                    <div className="myskilitem_progressbar">
+                        <div className="item_progress"></div>
+                    </div>
+                </div>
+                <div className="my_skill_item_5">
+                    <div className="myskill_item_title">
+                        <p>Figma</p>
+                        <p>90%</p>
+                    </div>
+                    <div className="myskilitem_progressbar">
+                        <div className="item_progress"></div>
+                    </div>
+                </div>
+                <div className="my_skill_item_6">
+                    <div className="myskill_item_title">
+                        <p>C++</p>
+                        <p>60%</p>
+                    </div>
+                    <div className="myskilitem_progressbar">
+                        <div className="item_progress"></div>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
     </div>

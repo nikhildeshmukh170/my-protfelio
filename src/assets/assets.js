@@ -129,21 +129,15 @@ export const tat_list = [
 export const ed_list = [
     {
         id:1,
-        ed_name: "Bennett Unversity",
-        ed_year:"2022-26",
+        ed_name: "Bennett Unversity(Times of Group), Greater Noida",
+        ed_year:"2022-2026",
         ed_qualification: "Bachelore of Technology in Computer With Specialization in Data Science."
     },
     {
         id:2,
-        ed_name: "Bennett Unversity",
-        ed_year:"2022-26",
-        ed_qualification: "Bachelore of Technology in Computer With Specialization in Data Science."
-    },
-    {
-        id:3,
-        ed_name: "Bennett Unversity",
-        ed_year:"2022-26",
-        ed_qualification: "Bachelore of Technology in Computer With Specialization in Data Science."
+        ed_name: "Janata Vidya Mandir, Murud",
+        ed_year:"2010-2022",
+        ed_qualification: "1st std. to 12th std."
     },
 ]
 
@@ -151,20 +145,20 @@ export const ed_list = [
 export const experience_list = [
     {
         id:1,
-        ex_name: "Bennett Unversity",
-        ex_year:"2022-26",
-        ex_qualification: "Bachelore of Technology in Computer With Specialization in Data Science."
+        ex_name: "Guru Soya Products",
+        ex_year:"2021-Present",
+        ex_qualification: " Designed and developed an E-commerce website from concept to completion for marketing and advertising products, integrating best SEO practices. Increased organic tra c by 40% and improved ad conversion rates by 25% within 6 months."
     },
     {
         id:2,
-        ex_name: "Bennett Unversity",
-        ex_year:"2022-26",
-        ex_qualification: "Bachelore of Technology in Computer With Specialization in Data Science."
+        ex_name: " GSSOC’24",
+        ex_year:"May 2024- July 26",
+        ex_qualification: " Used ReactJS to incorporate interactive front-end features into 2-3 projects. Successfully increased user engagement by 40% and session duration by 25% through data analysis."
     },
     {
         id:3,
-        ex_name: "Bennett Unversity",
-        ex_year:"2022-26",
-        ex_qualification: "Bachelore of Technology in Computer With Specialization in Data Science."
+        ex_name: "Design Lead & Co-Lead At DSS_Bu & GDSC_Bu",
+        ex_year:"2022-24",
+        ex_qualification: "in university in Dss and Gdsc my position is as a Design Lead and Co-Lead."
     },
 ]

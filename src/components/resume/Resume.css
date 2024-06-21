@@ -1,31 +1,34 @@
-.body_information .eduction, .body_information .experience{
-    display: flex;
-    flex-direction: column;
-    /* gap: 5px; */
+.body_information .eduction,
+.body_information .experience {
+  display: flex;
+  flex-direction: column;
+  /* gap: 5px; */
 
-    /* padding: 90px; */
-    /* margin-left: 20px; */
+  /* padding: 90px; */
+  /* margin-left: 20px; */
 }
 
-.eduction .ed_heading, .experience .ex_heading{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: start;
-    align-items: center;
+.eduction .ed_heading,
+.experience .ex_heading {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
 }
 
-.ed_heading .ed_heading_img , .ex_heading .ex_heading_img{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    background: #1d1d1d;
-    border-radius: 15px;
-    z-index: 3;
-    background: linear-gradient(#191c25, #191c25) padding-box,
+.ed_heading .ed_heading_img,
+.ex_heading .ex_heading_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #1d1d1d;
+  border-radius: 15px;
+  z-index: 3;
+  background: linear-gradient(#191c25, #191c25) padding-box,
     linear-gradient(to right, rgba(255, 255, 255, 0.34), #191c25) border-box;
   border-radius: 20px;
   border-top: 1px solid transparent;
@@ -33,17 +36,18 @@
   border-right: 4px solid transparent;
 }
 
-.ed_heading_para , .ex_heading_para{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+.ed_heading_para,
+.ex_heading_para {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
-.ed_heading .ed_heading_img img, .ex_heading .ex_heading_img img{
-    width: 30px;
-    height: 30px;
-    
+.ed_heading .ed_heading_img img,
+.ex_heading .ex_heading_img img {
+  width: 30px;
+  height: 30px;
 }
 
 /* .eduction hr{
@@ -58,66 +62,185 @@
     margin-left: 2.6%;
 } */
 
-.ed_heading p , .ex_heading p{
-    font-size: 30px;
-    font-weight: bold;
+.ed_heading p,
+.ex_heading p {
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.ed_list, .ex_list{
-    margin-left: 70px;
-    margin-top: -50px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.ed_list,
+.ex_list {
+  margin-left: 70px;
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.ed_list .ed_item, .ex_list .ex_item{
-    display: flex;
-    flex-direction: column;
-    /* gap: px; */
-    justify-content: start;
-    align-items: Start;
-    /* margin-top: -30px; */
+.ed_list .ed_item,
+.ex_list .ex_item {
+  display: flex;
+  flex-direction: column;
+  /* gap: px; */
+  justify-content: start;
+  align-items: Start;
+  /* margin-top: -30px; */
 }
 
-.ed_item .ed_item_title , .ex_item .ex_item_title{
-    font-size: 20px;
-    font-weight: bold;
+.ed_item .ed_item_title,
+.ex_item .ex_item_title {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.ed_item span , .ex_item span{
-    margin-top: -20px;
+.ed_item span,
+.ex_item span {
+  margin-top: -20px;
 }
 
-.ed_item .ed_item_para, .ex_item .ex_item_para{
-    margin-top: 5px;
-    color: #cecece;
+.ed_item .ed_item_para,
+.ex_item .ex_item_para {
+  margin-top: 5px;
+  color: #cecece;
 }
 
-.ed_item::before, .ex_item::before{
+.ed_item::before {
+  content: " ";
+  position: absolute;
+  width: 1px;
+  height: 140px;
+  /* top: 325px; */
+  left: 508px;
+  background: hsl(0, 0%, 22%);
+}
+
+.ex_item::before {
     content: " ";
     position: absolute;
     width: 1px;
-    height: 140px;
+    height: 190px;
     /* top: 325px; */
     left: 508px;
     background: hsl(0, 0%, 22%);
+  }
+
+.ed_item:last-child::before,
+.ex_item:last-child::before {
+  height: 30px;
 }
 
-.ed_item:last-child::before, .ex_item:last-child::before{
-    height: 30px;
+.ed_item::after,
+.ex_item::after {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%));
+  box-shadow: 0 0 0 4px hsl(0, 0%, 22%);
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -51px;
+  z-index: 34;
 }
 
 
-.ed_item::after, .ex_item::after{
-    content: " ";
-    width: 10px;
-    height: 10px;
-    background: linear-gradient( to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%) );;
-    box-shadow: 0 0 0 4px hsl(0, 0%, 22%);
-    border-radius: 50%;
-    position: absolute;
-    margin-top: 30px;
-    margin-left: -51px;
-    z-index: 34;
+
+.my_skills .my_skills_heading p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.my_skills .my_skills_body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: start;
+  align-items: start;
+  padding: 20px;
+  background: #24242468;
+  /* border-radius: 20px; */
+  background: linear-gradient(#191c25, #191c25) padding-box,
+    linear-gradient(to right, rgba(255, 255, 255, 0.34), #191c25) border-box;
+  border-radius: 20px;
+  border-top: 1px solid transparent;
+  border-left: 2px solid transparent;
+  border-bottom: 1px solid transparent;
+  margin-bottom: 30px;
+}
+
+.my_skills_body .my_skill_item_1,
+.my_skill_item_2,
+.my_skill_item_3,
+.my_skill_item_4,
+.my_skill_item_5,
+.my_skill_item_6 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  margin: auto;
+}
+
+.my_skills_body .my_skill_item_1 .myskill_item_title,
+.my_skill_item_2 .myskill_item_title,
+.my_skill_item_3 .myskill_item_title,
+.my_skill_item_4 .myskill_item_title,
+.my_skill_item_5 .myskill_item_title,
+.my_skill_item_6 .myskill_item_title {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: start;
+}
+
+.my_skills_body .my_skill_item_1 .myskilitem_progressbar,
+.my_skill_item_2 .myskilitem_progressbar,
+.my_skill_item_3 .myskilitem_progressbar,
+.my_skill_item_4 .myskilitem_progressbar,
+.my_skill_item_5 .myskilitem_progressbar,
+.my_skill_item_6 .myskilitem_progressbar {
+  background: hsl(0, 0%, 22%);
+  width: 100%;
+  height: 8px;
+  border-radius: 50px;
+}
+
+.my_skills_body .my_skill_item_1 .myskilitem_progressbar .item_progress{
+    width: 80%;
+    background: hsl(35, 100%, 68%);
+    height: 8px;
+    border-radius: 50px;
+}
+.my_skill_item_2 .myskilitem_progressbar .item_progress{
+    width: 80%;
+    background: hsl(35, 100%, 68%);
+    height: 8px;
+    border-radius: 50px;
+}
+.my_skill_item_3 .myskilitem_progressbar .item_progress{
+    width: 75%;
+    background: hsl(35, 100%, 68%);
+    height: 8px;
+    border-radius: 50px;
+}
+.my_skill_item_4 .myskilitem_progressbar .item_progress{
+    width: 90%;
+    background: hsl(35, 100%, 68%);
+    height: 8px;
+    border-radius: 50px;
+}
+.my_skill_item_5 .myskilitem_progressbar .item_progress{
+    width: 90%;
+    background: hsl(35, 100%, 68%);
+    height: 8px;
+    border-radius: 50px;
+}
+.my_skill_item_6 .myskilitem_progressbar .item_progress {
+    width: 60%;
+    background: hsl(35, 100%, 68%);
+    height: 8px;
+    border-radius: 50px;
 }
