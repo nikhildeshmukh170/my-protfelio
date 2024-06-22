@@ -1,0 +1,114 @@
+.body_information .contact_form_section{
+    /* width: 800px; */
+    /* height: 570px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_form_section .contact_form_heading{
+    font-size: 32px;
+    font-weight: bold;
+    /* margin-top: -80px; */
+    color: #edb302;
+}
+
+.body_information .contact_form_section .contact_from form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+
+.body_information .contact_form_section .contact_from .form_first_section, .form_second_section{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_form_section .contact_from .form_first_section .name_section, .email_section , .form_second_section .message_section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: start;
+}
+
+.name_section input, .email_section input{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+
+.form_second_section .message_section textarea{
+    width: 700px;
+    height: 100px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: inset;
+    border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+.contact_from .submitbutton input{
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 620px;
+    background: rgb(255, 179, 0);
+    color: #171717;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(#edb302, #edb302) padding-box,
+    linear-gradient(to right, rgba(255, 255, 255, 0.34), #191c25) border-box;
+  border-radius: 20px;
+  border-top: 1px solid transparent;
+  border-left: 2px solid transparent;
+  
+}
+
+.contact_from .submitbutton input:hover{
+    filter: drop-shadow(0 0 0.30rem rgba(255, 255, 255, 0.353));
+}
+
+.thanks_message{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.thanks_message .main_line{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.thanks_message .subline{
+    font-size: 20px;
+    /* font-weight: 500; */
+    margin-top: -10px;
+    text-align: center;
+    color: #edb302;
+}
+
+.subline:after {
+    content: "😄😄";
+}
+
+.subline span{
+    color: wheat;
+}
