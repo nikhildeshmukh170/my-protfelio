@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
 import { assets } from "../../assets/assets";
+import 'aos/dist/aos.css'; // Import AOS CSS
+import AOS from 'aos'; // Import AOS
 
 const Header = () => {
+
+  useEffect(() => {
+    AOS.init({  // initialize AOS
+      duration: 1000,  // animation duration
+      once: true,      // animate only once
+      easing: 'ease-out', // easing function
+    });
+  }, []);
+
   return (
     <div className="header">
-      <div className="profile_section">
-        <div className="picture">
+      <div className="profile_section" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">
+        <div className="picture" >
           <div className="profileimg">
             <img src={assets.profile} alt="" />
           </div>
@@ -86,7 +97,7 @@ const Header = () => {
           </a>
         </div>
       </div>
-      <div className="inform_section">
+      <div className="inform_section" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import Home from './pages/Home/Home'
 import Information from './components/Information/Information';
 import Resume from './components/resume/Resume';
 import Contact from './components/Contact/Contact';
+import Achivements from './components/Achivements/Achivements';
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Information />} />
         <Route path="/resume" element={<Resume />} />
-        <Route path="/achievements" element={""} />
+        <Route path="/achievements" element={<Achivements />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

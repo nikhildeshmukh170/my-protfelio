@@ -1,4 +1,4 @@
-.body_information .eduction,
+.body_information .resume_education,
 .body_information .experience {
   display: flex;
   flex-direction: column;
@@ -8,8 +8,8 @@
   /* margin-left: 20px; */
 }
 
-.eduction .ed_heading,
-.experience .ex_heading {
+.body_information .resume_education .ed_heading,
+.body_information .experience .ex_heading {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -110,7 +110,7 @@
   width: 1px;
   height: 140px;
   /* top: 325px; */
-  left: 508px;
+  left: -47px;
   background: hsl(0, 0%, 22%);
 }
 
@@ -120,7 +120,7 @@
     width: 1px;
     height: 190px;
     /* top: 325px; */
-    left: 508px;
+    left: -47px;
     background: hsl(0, 0%, 22%);
   }
 
@@ -196,7 +196,7 @@
   align-items: start;
 }
 
-.my_skills_body .my_skill_item_1 .myskilitem_progressbar,
+/* .my_skills_body .my_skill_item_1 .myskilitem_progressbar,
 .my_skill_item_2 .myskilitem_progressbar,
 .my_skill_item_3 .myskilitem_progressbar,
 .my_skill_item_4 .myskilitem_progressbar,
@@ -243,4 +243,28 @@
     background: hsl(35, 100%, 68%);
     height: 8px;
     border-radius: 50px;
+} */
+
+.myskilitem_progressbar {
+  width: 100%;
+  background-color: hsl(0, 0%, 22%);
+  border-radius: 10px;
+  overflow: hidden;
 }
+
+.item_progress {
+  height: 10px;
+  width: 0;
+  background-color: hsl(35, 100%, 68%);
+  border-radius: 10px;
+  transition: width 5s ease-in-out; /* Animation duration and timing function */
+}
+
+
+/* Adjust width percentages for demo purposes */
+.my_skill_item_1 .item_progress { width: 80%; }
+.my_skill_item_2 .item_progress { width: 80%; }
+.my_skill_item_3 .item_progress { width: 75%; }
+.my_skill_item_4 .item_progress { width: 90%; }
+.my_skill_item_5 .item_progress { width: 90%; }
+.my_skill_item_6 .item_progress { width: 60%; }
