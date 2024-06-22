@@ -139,31 +139,70 @@
 }
 
 .mail:hover .mail_content h5, .education:hover .education_content h5, .contact:hover .contact_content h5{
-    color: rgb(255, 255, 255);
+    color: rgb(240, 168, 1);
 }
 
 .mail .mail_content p, .education .education_content p, .contact .contact_content p{
     margin-top: -22px;
+
 }
 
-.header .profile_section .social_media{
+.header .profile_section .bottom_content{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.header .profile_section .bottom_content .social_media{
     display: flex;
     flex-direction: row;
     gap: 10px;
     cursor: pointer;
 }
-.header .profile_section .social_media img{
+.header .profile_section .bottom_content .social_media img{
     width: 20px;
     height: 20px;
     object-fit: cover;
     transition: 0.4s;
 }
 
-.header .profile_section .social_media img:hover{
-    box-shadow:  0 0 5px 2px rgb(240, 168, 1);
+.header .profile_section .bottom_content .social_media img:hover{
+    filter: drop-shadow(0 0 0.30rem rgba(255, 221, 0, 0.733));
 }
 
+.header .profile_section .bottom_content .download_cv{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FC0;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 80px;
+    height: 3px;
+    /* margin-left: -40px; */
+    position: relative;
+}
 
+.header .profile_section .bottom_content .download_cv:hover{
+    background: rgb(255, 215, 57);
+    filter: drop-shadow(0 0 0.30rem rgba(255, 255, 255, 0.353));
+}
+
+.download_cv a{
+    text-decoration: none;
+    color: white;
+}
+
+.download_cv a:hover{
+    color: black;
+    font-weight: 700;
+}
 /* .header .inform_section{
     min-width: 75%;
     width: 75%;

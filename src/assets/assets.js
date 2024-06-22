@@ -32,6 +32,8 @@ import vscode from "./vscode.png"
 import WireShark from "./WireShark.png"
 import reading from "./reading.png"
 
+import NikhilDeshmukhResume from "./NikhilDeshmukhResume.pdf"
+
 
 export const assets = {
     profile,
@@ -66,7 +68,8 @@ export const assets = {
     visualParadigm,
     vscode,
     WireShark,
-    reading
+    reading,
+    NikhilDeshmukhResume
 
 }
 

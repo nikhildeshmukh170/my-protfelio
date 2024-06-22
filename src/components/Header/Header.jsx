@@ -66,35 +66,42 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="social_media">
-          <a
-            href="https://www.linkedin.com/in/nikhil-d-deshmukh/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={assets.linkedin} alt="LinkedIn" />
-          </a>
-          <a
-            href="https://github.com/nikhildeshmukh170"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={assets.github} alt="GitHub" />
-          </a>
-          <a
-            href="https://twitter.com/nikhil_desh1938"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={assets.twitter} alt="Twitter" />
-          </a>
-          <a
-            href="https://www.instagram.com/nikhil.d.01/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={assets.instagram} alt="Instagram" />
-          </a>
+        <div className="bottom_content">
+          <div className="download_cv">
+            <a href={assets.NikhilDeshmukhResume} download="Nikhil Deshmukh CV.pdf">
+              <p>Download CV</p>
+            </a>
+          </div>
+          <div className="social_media">
+            <a
+              href="https://www.linkedin.com/in/nikhil-d-deshmukh/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={assets.linkedin} alt="LinkedIn" />
+            </a>
+            <a
+              href="https://github.com/nikhildeshmukh170"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={assets.github} alt="GitHub" />
+            </a>
+            <a
+              href="https://twitter.com/nikhil_desh1938"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={assets.twitter} alt="Twitter" />
+            </a>
+            <a
+              href="https://www.instagram.com/nikhil.d.01/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={assets.instagram} alt="Instagram" />
+            </a>
+          </div>
         </div>
       </div>
       <div className="inform_section" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">

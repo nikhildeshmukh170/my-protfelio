@@ -63,17 +63,17 @@ const Contact = () => {
               <form ref={form} onSubmit={sendEmail}>
                 <div className="form_first_section">
                   <div className="name_section">
-                    <label>Name </label>
+                    <label>Name* </label>
                     <input type="text" name="from_name" placeholder="Name" required/>
                   </div>
                   <div className="email_section">
-                    <label>Email</label>
+                    <label>Email*</label>
                     <input type="email" name="from_email" placeholder="Email" required/>
                   </div>
                 </div>
                 <div className="form_second_section">
                   <div className="message_section">
-                    <label>Message</label>
+                    <label>Message*</label>
                     <textarea name="message" placeholder="Write here something..." required/>
                   </div>
                 </div>
