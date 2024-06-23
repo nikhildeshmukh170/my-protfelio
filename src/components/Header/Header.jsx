@@ -19,10 +19,10 @@ const Header = () => {
       <div className="profile_section" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">
         <div className="picture" >
           <div className="profileimg">
-            <img src={assets.profile} alt="" />
+            <img src={assets.profile} alt="profile pic" />
           </div>
           <div className="groupimg">
-            <video src={assets.developer_bg_video} alt="" className="profile-video" autoPlay muted loop/>
+            <video src={assets.developer_bg_video} alt="bg video" className="profile-video" autoPlay muted loop/>
           </div>
         </div>
         <div className="inform">
@@ -40,7 +40,7 @@ const Header = () => {
 
         <div className="connect_infrom">
           <div className="mail">
-            <img src={assets.mail} alt="" />
+            <img src={assets.mail} alt="mail icon" />
             <div className="mail_content">
               <h5>EMAIL</h5>
               <a href="mailto:nikhildeshmukh170@gmail.com">
@@ -49,14 +49,14 @@ const Header = () => {
             </div>
           </div>
           <div className="education">
-            <img src={assets.education} alt="" />
+            <img src={assets.education} alt="eduction icon" />
             <div className="education_content">
               <h5>EDUCATION</h5>
               <p>B Tech CSE with Specialization in Data Science</p>
             </div>
           </div>
           <div className="contact">
-            <img src={assets.contact} alt="" />
+            <img src={assets.contact} alt="contact icon" />
             <div className="contact_content">
               <h5>Contact</h5>
               <a href="tel:+919022671564">
