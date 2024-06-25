@@ -92,7 +92,9 @@ const Information = () => {
                     <p className="heading">Top 20 in Infromatica Data Engineer Hackathon</p>
                   </div>
                   <div className="achivement_content">
-                    <p className="para">Won the best Paper presentation award along with my teammates at departmental level in.. college for the RBL subject that delas with Fake Multimedia Detection.</p>
+                    <p className="para"> powered 
+by hack2skill and this is my first hackathon 
+in data science.</p>
                   </div>
                 </div>
               </div>
@@ -106,7 +108,9 @@ const Information = () => {
                     <p className="heading">GSSoC'24 & SSoC 2.0 </p>
                   </div>
                   <div className="achivement_content">
-                    <p className="para">Won the best Paper presentation award along with my teammates at departmental level in.. college for the RBL subject that delas with Fake Multimedia Detection.</p>
+                    <p className="para"> powered 
+by hack2skill and this is my first hackathon 
+in data science.</p>
                   </div>
                 </div>
               </div>
@@ -120,7 +124,9 @@ const Information = () => {
                     <p className="heading">First big project completed from start to finish!</p>
                   </div>
                   <div className="achivement_content">
-                    <p className="para">Won the best Paper presentation award along with my teammates at departmental level in.. college for the RBL subject that delas with Fake Multimedia Detection.</p>
+                    <p className="para"> Developed a comprehensive e-commerce system that facilitates seamless product purchases 
+for customers and streamlines order management for administrators, resulting in a 25% 
+increase in overall sales and a 10% reduction in operational costs.</p>
                   </div>
                 </div>
               </div>
@@ -134,7 +140,9 @@ const Information = () => {
                     <p className="heading">Google Developer Student Club</p>
                   </div>
                   <div className="achivement_content">
-                    <p className="para">Won the best Paper presentation award along with my teammates at departmental level in.. college for the RBL subject that delas with Fake Multimedia Detection.</p>
+                    <p className="para">Secured the position of Design Co-Lead for 
+the 2023-24 tenure and leveraged this role 
+to build more connections and knowledge.</p>
                   </div>
                 </div>
               </div>
@@ -148,7 +156,10 @@ const Information = () => {
                     <p className="heading">Data Science Society</p>
                   </div>
                   <div className="achivement_content">
-                    <p className="para">Won the best Paper presentation award along with my teammates at departmental level in.. college for the RBL subject that delas with Fake Multimedia Detection.</p>
+                    <p className="para"> Appointed as 
+Design Lead for the 2023-24 term, and I 
+also received recognition as the most active 
+person for excellent work in the club.</p>
                   </div>
                 </div>
               </div>
