@@ -45,7 +45,7 @@ const Contact = () => {
   return (
     <div className="information">
       <div className="header_information">
-        <div className="infor_heading" data-aos="fade-down">
+        <div className="infor_heading" data-aos="fade-down" data-aos-duration="2000">
           <p>Contact Me</p>
           <hr />
         </div>

@@ -1,14 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Information.css";
 import Navbar from "../Navbar/Navbar";
 import { assets, tat_list } from "../../assets/assets";
 import { Fade, Zoom, Slide } from 'react-awesome-reveal';
+import 'aos/dist/aos.css'; // Import AOS CSS
+import AOS from 'aos'; // Import AOS
 
 const Information = () => {
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize AOS with desired options
+  }, []);
+
   return (
     <div className="information">
       <div className="header_information">
-        <div className="infor_heading">
+        <div className="infor_heading" data-aos="fade-down" data-aos-duration="2000">
           <p>About Me</p>
           <hr />
         </div>
