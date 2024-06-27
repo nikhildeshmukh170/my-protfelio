@@ -46,7 +46,7 @@ const Resume = () => {
   return (
     <div className="information">
       <div className="header_information">
-        <div className="infor_heading" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+        <div className="infor_heading" data-aos="fade-down" data-aos-duration="2000">
           <p>Resume</p>
           <hr />
         </div>
