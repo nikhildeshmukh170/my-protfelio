@@ -1,0 +1,13 @@
+.body_information{
+    margin-bottom: 40px;
+}
+
+.projects_section_heading ,.certificates_section_heading ,.hackathon_section_heading{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(255, 157, 0);
+}
+
+.project_content , .certificate_content , .Hackathon_content{
+    padding-left: 30px;
+}

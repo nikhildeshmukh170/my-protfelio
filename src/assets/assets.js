@@ -165,3 +165,93 @@ export const experience_list = [
         ex_qualification: "in university in Dss and Gdsc my position is as a Design Lead and Co-Lead."
     },
 ]
+
+export const project_list = [
+    {
+        id: 1,
+        Project_Name: "guru soya product e-commerce website"
+    },
+    {
+        id: 2,
+        Project_Name: "marine plastic detection"
+    },
+    {
+        id: 3,
+        Project_Name: "terrorist analysis & prediction"
+    },
+    {
+        id: 4,
+        Project_Name: "Bank LMS"
+    },
+    {
+        id: 5,
+        Project_Name: "my food"
+    },
+    {
+        id: 6,
+        Project_Name: "java number guess game"
+    },
+    {
+        id: 7,
+        Project_Name: "business edtech"
+    },
+    {
+        id: 8,
+        Project_Name: "Google Search Analysis"
+    },
+
+]
+
+export const Hackathon_list = [
+
+    {
+        id:1,
+        Hackathon_name:"Informatica Data Science Hackathon"
+    },
+    {
+
+        id:2,
+        Hackathon_name:"Hackaccino"
+    },
+    {
+
+        id:3,
+        Hackathon_name:"InterCollage Codethon and Hackathon"
+    },
+]
+
+export const Certificate_list = [
+    {
+        id:1,
+        certificate_name: "Google Data Analytics Professional Certificate"
+    },
+    {
+        id:2,
+        certificate_name: "Deep Learning and Reinforcement Learning"
+    },
+    {
+        id:3,
+        certificate_name: "Fundamentals of Network Communication"
+    },
+    {
+        id:4,
+        certificate_name: "The Bits and Bytes of Computer Networking"
+    },
+    {
+        id:5,
+        certificate_name: "Algorithmic Toolbox"
+    },
+    {
+        id:6,
+        certificate_name: "Data Structures"
+    },
+    
+    {
+        id:7,
+        certificate_name: " Object-Oriented Data Structures in C++"
+    },
+    {
+        id:8,
+        certificate_name: "Introduction to Computers and Operating Systems and Security"
+    },
+]
