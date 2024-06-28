@@ -1,4 +1,5 @@
 import React from 'react'
+import { Analytics } from "@vercel/analytics/react"
 import "./App.css"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header'
@@ -10,15 +11,18 @@ import Achivements from './components/Achivements/Achivements';
 
 const App = () => {
   return (
-    <Router>
-      <Home />
-      <Routes>
-        <Route path="/" element={<Information />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/achievements" element={<Achivements />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <Home />
+        <Routes>
+          <Route path="/" element={<Information />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/achievements" element={<Achivements />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
+      <Analytics />
+    </>
   )
 }
 
